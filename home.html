@@ -38,32 +38,32 @@
 
 
     <div class="mt-5 grid grid-cols-3 gap-4 min-h-[200px]">
-        <div id="btn-add" class="text-center p-3 rounded-xl border border-gray-300">
+        <div id="btn-add" class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/wallet1.png" alt="">
             <p>Add Money</p>
         </div>
 
-        <div id="btn-out" class="text-center p-3 rounded-xl border border-gray-300">
+        <div id="btn-out" class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/send1.png" alt="">
             <p>Cashout</p>
         </div>
 
-        <div id="btn-transfer" class="text-center p-3 rounded-xl border border-gray-300">
+        <div id="btn-transfer" class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/money1.png" alt="">
             <p>Transfer Money</p>
         </div>
 
-        <div class="text-center p-3 rounded-xl border border-gray-300">
+        <div class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/bonus1.png" alt="">
             <p>Get Bonus</p>
         </div>
 
-        <div class="text-center p-3 rounded-xl border border-gray-300">
+        <div class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/purse1.png" alt="">
             <p>Pay Bill</p>
         </div>
 
-        <div class="text-center p-3 rounded-xl border border-gray-300">
+        <div id="btn-transaction" class="form-btn text-center p-3 rounded-xl border border-gray-300">
             <img class="mx-auto" src="Assets/transaction1.png" alt="">
             <p>Transactions</p>
         </div>
@@ -132,7 +132,7 @@
 
          <!-- Transfer Money -->
      <div id="transfer-money-parent" style="display: none;">
-            <h1 class="font-bold text-[18px] my-5">Transfer Money</h1>
+                <h1 class="font-bold text-[18px] my-5">Transfer Money</h1>
             <form class="bg-white rounded-2xl p-8">
                
                 <div>
@@ -152,6 +152,19 @@
                 </div>
                 <button  class="btn bg-[#0874F2] text-white mt-5 w-full rounded-3xl" id="btn-withdraw">Send Now</button>
             </form>
+         </div>
+
+         <!-- Transaction -->
+     <div id="transaction-parent" style="display: none;">
+            <div class="flex justify-between items-center">
+            <h1 class="font-bold text-[18px] my-5">Transaction History</h1>
+            <p>View All</p>
+            </div>
+            <div id="transaction-container">
+                
+            </div>
+            </div>
+            
          </div>
     </div>
     </div>
